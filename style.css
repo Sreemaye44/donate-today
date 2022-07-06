@@ -6,7 +6,7 @@ h1 {
   font-size: 40px;
 }
 p {
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 15px;
   margin-bottom: 30px;
 }
@@ -124,7 +124,18 @@ footer{
   color:red;
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
-  font-weight: 800;
-  
+  font-weight: 800; 
+}
+
+#email{
+  border-radius: 5px 0px 0px 5px;
+}
+#email_btn{
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -2px;
+}
+#updates{
+  width: 60%;
+  align-content: center;
 
 }
