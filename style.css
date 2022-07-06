@@ -1,8 +1,5 @@
 body {
   font-family: "Lato", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 h1 {
@@ -39,6 +36,7 @@ header {
   padding: 10px;
   border-radius: 5px;
   font-size: 13px;
+  border:none;
 }
 .donation-amount {
   text-align: center;
@@ -101,6 +99,32 @@ h2 {
 
 
 form{
-  margin:0;
-  padding: 0;
+  padding:40px;
+  margin-bottom:30px;
+  background-color: #def3a9;
+
+}
+input{
+  background-color:rgb(219, 221, 222) ;
+  border: none;
+  padding:10px;
+  border-radius: 5px;
+}
+footer{
+  background-color: black;
+  color:white;
+}
+.foot{
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:15px;
+  margin-top: 10px;
+}
+.foot h3{
+  color:red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: 800;
+  
+
 }
