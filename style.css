@@ -35,7 +35,7 @@ header {
   background-color: rgb(211, 78, 55);
   padding: 10px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 15px;
   border:none;
 }
 .donation-amount {
@@ -46,7 +46,8 @@ header {
 }
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 
 
 }
@@ -64,7 +65,7 @@ h4 {
   border: 2px solid red;
 }
 #taka {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   color: #9c9e9c;
   border-bottom: 2px solid;
   border-bottom-color: #bec2be;
@@ -92,10 +93,23 @@ h2 {
   background-color: rgb(242, 243, 203);
 }
 .donation-flex{
-  width:30%;
+     width: 60px;
+     height:50px;
  
 }
 /*-------------------------------------*/
+.users-criteria{
+  justify-content: space-around;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  background-color: antiquewhite;
+  width:100%
+}
 
 
 form{
@@ -138,16 +152,4 @@ footer{
   width: 60%;
   align-content: center;
 
-}
-.users-criteria{
-  justify-content: space-around;
-  border-radius: 30px;
-  text-align: center;
-  margin: 5px;
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  background-color: antiquewhite;
-  width:100%
 }
